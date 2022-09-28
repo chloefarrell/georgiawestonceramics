@@ -1,6 +1,6 @@
 h1 {
   text-align: center;
-  font-size:500%;
+  font-size:700%;
   margin-bottom: 0%;
   font-family: auto;
   font-weight: revert;
@@ -40,6 +40,7 @@ body.card {
   max-width: 1400px;
   padding: 0 15px;
   margin: 0 auto;
+  height: auto;
 }
 
 
@@ -52,6 +53,7 @@ body.card {
   list-style: none;
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
+  height: auto;
 }
 
 .card {
@@ -62,6 +64,7 @@ body.card {
   border-radius: 12px;
   scroll-snap-align: start;
   transition: all 0.2s;
+  height: auto;
 }
 
 .card:hover {
@@ -72,6 +75,7 @@ body.card {
 .card .card-content {
   margin: 20px 0;
   max-width: 85%;
+  height: auto;
 }
 
 .cards::-webkit-scrollbar {
@@ -123,6 +127,7 @@ body.card {
   font-size: 25px;
   padding: 25px 25px;
   display: inline-flex;
+  padding-top: 0px;
 }
 
 .container-t {
@@ -132,4 +137,27 @@ body.card {
   object-position: center;
   height: 40vh;
   overflow: hidden;
+  image-rendering: auto;
+}
+p {
+  text-align: center;
+  font-weight: bolder;
+}
+.img-circle {
+  border-radius: 50%;
+  size: 90px;
+
+}
+.image {
+	background-image: url(https://lh3.googleusercontent.com/7F1VGqARhI3fgYecBdJcreDUOrhZMQk3nIN9kfl-JXL2hWMpvts98ZGrJnKPupjgUwliAXWRH-r66adW2Ci_QZycMt3NhUYwLiouc8T_oF1BMKoqefNmQLf49BN_kpikZ2vrzP7J=w2400?source=screenshot.guru);
+	height: 800;
+  image-rendering:inherit;
+  background-size: 400px 300px;
+}
+
+.footer {
+	padding-top: 0px;
+	color: black;
+	font-size: 80px;
+	text-align: center;
 }
