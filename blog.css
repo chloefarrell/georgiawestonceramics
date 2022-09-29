@@ -24,7 +24,6 @@ body {
 }
 
 * {
-
   padding: 0;
   margin: 0;
 }
@@ -118,13 +117,15 @@ body.card {
 .icons {
   color: black;
   display: inline-flex;
-  ;
+  list-style: none;
+  padding-left: 0;
+
 }
 
 .icons a {
   color: black;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 50px;
   padding: 25px 25px;
   display: inline-flex;
   padding-top: 0px;
@@ -142,17 +143,22 @@ body.card {
 p {
   text-align: center;
   font-weight: bolder;
+  font-size: x-large;
 }
 .img-circle {
   border-radius: 50%;
-  size: 90px;
+  size: 500px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
 
 }
 .image {
 	background-image: url(https://lh3.googleusercontent.com/7F1VGqARhI3fgYecBdJcreDUOrhZMQk3nIN9kfl-JXL2hWMpvts98ZGrJnKPupjgUwliAXWRH-r66adW2Ci_QZycMt3NhUYwLiouc8T_oF1BMKoqefNmQLf49BN_kpikZ2vrzP7J=w2400?source=screenshot.guru);
-	height: 800;
-  image-rendering:inherit;
+	height: 220px;
+  image-rendering: inherit;
   background-size: 400px 300px;
+  padding-top: 0px;
 }
 
 .footer {
@@ -160,4 +166,17 @@ p {
 	color: black;
 	font-size: 80px;
 	text-align: center;
+  background-position: center;
+}
+
+.modal-body {
+  font-size: x-large;
+  font-family: auto;
+  text-align: center;
+  font-weight: bolder;
+
+}
+h5 {
+  font-size: xx-large;
+  font-weight: revert;
 }
